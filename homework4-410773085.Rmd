@@ -188,6 +188,8 @@ df_validCommitsSubsample
 
 ```{r ans113}
 # validCounts
+length(levels(as.factor(df_validCommitsSubsample$commitDate))) -> validCounts
+validCounts
 ```
 
 ### 1.14 不重覆有效commit次數查詢函數
